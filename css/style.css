@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c2cad2;
+    color: #333;
+    padding-top: 96px;        
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background: url(../images/bcgr1.jpg) fixed center !important;
+    background-size: cover !important;
+
+}
+
+.title-color {
+    background-color: rgba(103, 72, 2, 0.959);
+    padding: 10px;
+}
