@@ -19,3 +19,15 @@ body {
     background-color: rgba(103, 72, 2, 0.959);
     padding: 10px;
 }
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-link.active {
+    color: rgba(103, 72, 2, 0.789) !important;
+    font-weight: bold;
+    -webkit-text-stroke: 0.3px white;
+}

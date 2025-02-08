@@ -1,12 +1,10 @@
-let indexNav = document.getElementById('index-nav');
-let projectNav = document.getElementById('project-nav');
+document.addEventListener("DOMContentLoaded", function() {
+    let currentPage = window.location.pathname.split("/").pop();
+    let navLinks = document.querySelectorAll(".nav-link");
 
-setTimeout(() => {
-    if (window.location.pathname === '/Users/milos/Desktop/portfolio/index.html') {
-        indexNav.style.color = 'rgba(176, 126, 9, 0.789);';
-    } else if (window.location.pathname === '/Users/milos/Desktop/portfolio/projects.html') {
-        projectNav.style.color = 'rgba(176, 126, 9, 0.789);';
-    }
-}, 1000);
-
-console.log(window.location.pathname)
+    navLinks.forEach(link => {
+        if (link.getAttribute("href") === currentPage) {
+            link.classList.add("active");
+        }
+    });
+});
