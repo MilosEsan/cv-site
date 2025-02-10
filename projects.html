@@ -9,72 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <style>
 
-        nav {
-            position: fixed !important;
-            width: 100% !important;
-            z-index: 999;
-            top: 0;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            color: #333;
-            padding-top: 96px;        
-        }
-
-        a {
-            color: rgba(var(--bs-success-rgb),var(--bs-bg-opacity)) !important;
-            text-decoration: underline;
-        }
-
-        .container {
-            margin: auto;
-            padding: 20px;
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .header h1 {
-            font-size: 2.5rem;
-            font-weight: bold;
-        }
-        .contact-info {
-            text-align: center;
-            font-size: 1.1em;
-            margin-bottom: 20px;
-        }
-        .content {
-            padding: 10px;
-        }
-
-        content, .content > p {
-            text-align: center !important;
-        }
-
-        @media (min-width: 768px) {
-            .main-content {
-                display: flex;
-                justify-content: space-between;
-                width: 75%;
-            }
-            .skills {
-                width: 30%;
-            }
-            .main-details {
-                width: 100%;
-            }
-
-            .divider_1 {
-                display: none;
-            }
-
-            .contact-info > .side_link {
-                font-size: 15px;
-                padding: 10px;
-                word-break: break-word;
-            }
-        }
+        /* SHOWCASE PAGE CODE */
 
         .hero-bcgr {
             background: url(images/bcgr1.jpg) fixed center;
@@ -82,124 +17,8 @@
         }
 
         .hero {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
             background-color: rgba(103, 72, 2, 0.950);
-            color: white;
-            padding: 20px;
-            height: 225px;
-            margin-bottom: 50px;
         }
-
-        .hero .header {
-            flex: 1;
-            text-align: center;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 10);
-        }
-
-        .hero img {
-            height: 200px;
-            width: 200px;
-            border-radius: 50%;
-            position: absolute;
-            right: 20px;
-            top: 220px;
-        }
-
-        .flex-nowrap {
-            justify-content: center;
-        }
-
-        .skill-heading {
-            font-size: 50px !important;
-            margin-bottom: 70px;
-            color: white;
-            margin-top: 20px;
-            color: rgba(103, 72, 2, 0.789);
-        }
-
-        .nav-pills > li {
-            font-size: 25px;
-            margin-bottom: 22px;
-        }
-        
-        .container-xxxl {
-                padding-bottom: 0 !important;
-            }
-
-        i {
-            margin-right: 10px;
-        }
-
-        .divider {
-            border-radius: 3px;
-            margin-bottom: 20px;
-            margin-top: 100px;
-        }
-        
-        @media(max-width: 900px) {
-
-            .hero {
-                padding: 10px;
-                gap: 20px;
-                margin-bottom: 20px;
-            }
-
-            .hero img {
-                height: 150px;
-                width: 150px;
-                position: relative;
-                top: 0;
-            }
-
-            .divider {
-                border-radius: 3px;
-                margin-bottom: 0px;
-                width: 85%;
-                margin-right: auto;
-                margin-left: auto;
-            }
-
-            .mobile-box-model {
-                padding-left: 0px !important;
-                padding-right: 0px !important;
-            }
-
-            .main-content {
-                width: 65%;
-            }
-
-            .col-auto {
-                width: 35% !important;
-            }
-
-            #menu > li {
-                font-size: 15px;
-            }
-
-            .side_link {
-                font-size: 13px;
-                text-align: center;
-            }
-
-
-            .skill-heading {
-                font-size: 25px !important;
-                margin-bottom: 40px;
-            }
-        }
-
-        @media (max-width: 400px) {
-            .contact-info > .side_link {
-                font-size: 13px;
-                padding: 10px;
-                word-break: break-word;
-            }
-        }
-
-
-        /* SECOND PAGE CODE */
 
         .main-content {
             width: 100%;
@@ -256,8 +75,6 @@
                                 <div id="ap-pics" class="content d-flex flex-row justify-content-center flex-wrap">
                                     <img class="app-img" src="images/project-snaps/ap1.png">
                                     <img class="app-img" src="images/project-snaps/ap2.png">
-                                </div>
-                                <div id="ap-pics" class="content d-flex flex-row justify-content-center flex-wrap">
                                     <img class="app-img" src="images/project-snaps/ap3.png">
                                     <img class="app-img" src="images/project-snaps/ap4.png">
                                 </div>
@@ -272,8 +89,6 @@
                                 <div id="ap-pics" class="content d-flex flex-row justify-content-center flex-wrap">
                                     <img class="app-img" src="images/project-snaps/gi1.png">
                                     <img class="app-img" src="images/project-snaps/gi2.png">
-                                </div>
-                                <div id="ap-pics" class="content d-flex flex-row justify-content-center flex-wrap">
                                     <img class="app-img" src="images/project-snaps/gi3.png">
                                     <img class="app-img" src="images/project-snaps/gi4.png">
                                 </div>
@@ -288,8 +103,6 @@
                                 <div id="ap-pics" class="content d-flex flex-row justify-content-center flex-wrap">
                                     <img class="app-img" src="images/project-snaps/alp1.png">
                                     <img class="app-img" src="images/project-snaps/alp2.png">
-                                </div>
-                                <div id="ap-pics" class="content d-flex flex-row justify-content-center flex-wrap">
                                     <img class="app-img" src="images/project-snaps/alp3.png">
                                 </div>
                             </div>  
