@@ -106,9 +106,7 @@ i {
     font-weight: bold;
     color: white;
     text-align: center;
-    background: url(../images/bcgr1.jpg) fixed center !important;
     background-size: cover !important;
-
 }
 
 .title-color {
