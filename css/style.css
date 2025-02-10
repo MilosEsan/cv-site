@@ -85,6 +85,8 @@ a {
 .nav-pills > li {
     font-size: 25px;
     margin-bottom: 22px;
+    text-shadow: 2px 2px 4px rgb(195, 189, 189);
+    ;
 }
 
 .container-xxxl {
@@ -190,7 +192,8 @@ i {
     }
 
     #menu > li {
-        font-size: 15px;
+        margin-bottom: 72px;
+        font-size: 20px;
     }
 
     .side_link {
@@ -202,6 +205,10 @@ i {
     .skill-heading {
         font-size: 25px !important;
         margin-bottom: 40px;
+    }
+
+    .skills {
+        margin-bottom: 110px;
     }
 }
 

@@ -8,3 +8,12 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
+
+function switchToContactFromProjects() {
+    localStorage.setItem('goToContact', true)
+    window.location.replace('index.html')
+    setTimeout(() => {
+        console.log(localStorage)
+    }, 2000);
+}
