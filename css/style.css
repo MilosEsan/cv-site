@@ -68,7 +68,7 @@ a {
     border-radius: 50%;
     position: absolute;
     right: 20px;
-    top: 220px;
+    top: 113px;
 }
 
 .flex-nowrap {
@@ -126,6 +126,14 @@ i {
     color: rgba(103, 72, 2, 0.789) !important;
     font-weight: bold;
     -webkit-text-stroke: 0.2px white;
+}
+
+.dropdown-menu {
+    margin-top: -10px !important;
+}
+
+.dropdown-link {
+    font-size: 11px;
 }
 
 
