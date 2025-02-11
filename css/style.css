@@ -125,7 +125,7 @@ i {
 .nav-link.active {
     color: rgba(103, 72, 2, 0.789) !important;
     font-weight: bold;
-    -webkit-text-stroke: 0.3px white;
+    -webkit-text-stroke: 0.2px white;
 }
 
 
